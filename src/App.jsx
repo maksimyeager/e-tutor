@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import NumberCounter from "./components/NumberCounter";
 import WhyChooseUs from "./components/WhyChooseUs";
 import Banner from "./components/Banner";
+import Footer from "./components/Footer";
 
 import Img1 from "./assets/banner-1.png";
 import Img2 from "./assets/banner-2.png";
@@ -43,6 +44,7 @@ const App = () => {
             <Banner {...BannerData2} reverse={true} />
             <SubjectCard />
             <Testimonial/>
+            <Footer/>
         </main>
     );
 };
